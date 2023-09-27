@@ -33,10 +33,13 @@ export const Profile = () => {
         </div>
         <div className="card-reveal">
           <span className="card-title grey-text text-darken-4">
-            Follow Me
             <AiFillCloseSquare className="material-icons right" />
+            Follow Me
           </span>
-          <p className="flex-container">
+          <p
+            className="flex-container"
+            style={{ display: "flex", justifyContent: "space-around" }}
+          >
             <BsFacebook className=" grey-text text-darken-4 social_style" />
             <AiOutlineTwitter className="grey-text text-darken-4 social_style" />
             <BsGoogle className=" grey-text text-darken-4 social_style" />
